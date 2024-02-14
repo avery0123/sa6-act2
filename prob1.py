@@ -1,4 +1,3 @@
-numbers = [1, 2, 3, 4]
-# Write a lambda function and use map
-squared_numbers = list(map(lambda x: _, numbers))
-print(squared_numbers)
+original_list = [1, 2, 3, 4]
+result_list = list(map(lambda x: x**2, original_list))
+print(result_list)
